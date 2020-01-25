@@ -240,7 +240,6 @@ uvwasi_errno_t uvwasi_poll_oneoff(uvwasi_t* uvwasi,
                                   size_t nsubscriptions,
                                   size_t* nevents);
 uvwasi_errno_t uvwasi_proc_exit(uvwasi_t* uvwasi, uvwasi_exitcode_t rval);
-uvwasi_errno_t uvwasi_proc_raise(uvwasi_t* uvwasi, uvwasi_signal_t sig);
 uvwasi_errno_t uvwasi_random_get(uvwasi_t* uvwasi, void* buf, size_t buf_len);
 uvwasi_errno_t uvwasi_sched_yield(uvwasi_t* uvwasi);
 uvwasi_errno_t uvwasi_sock_recv(uvwasi_t* uvwasi,
